@@ -8,7 +8,7 @@ from pydub import AudioSegment
 load_dotenv('.envrc')
 
 # initialize openai api
-client = OpenAI(os.getenv('OPENAI_API_KEY'))
+client = OpenAI()
 
 # Initialize Flask app
 app = Flask(__name__)
