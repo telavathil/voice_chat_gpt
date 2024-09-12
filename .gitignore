@@ -1,0 +1,17 @@
+# Ignore Python compiled files
+__pycache__/
+*.pyc
+*.pyo
+.Python
+
+# Ignore pipenv environment files
+.venv/
+
+# Ignore environment variables
+.envrc
+
+# Ignore audio output
+*.wav
+
+# Ignore OS-specific files
+.DS_Store
